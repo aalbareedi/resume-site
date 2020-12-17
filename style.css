@@ -1,0 +1,106 @@
+body {
+  background-color: #f1f2f5;
+}
+
+.wrapper {
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 22px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 58px;
+  margin-right: 16px;
+}
+
+.name {
+  font-family: "PT Sans", sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  margin-bottom: 1px;
+}
+
+.jobTitle {
+  font-family: "Baloo Da 2", cursive;
+  letter-spacing: 0.1px;
+  word-spacing: 2.3px;
+  font-size: 16px;
+  margin-left: -1px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.contact {
+  font-family: "Baloo Da 2", cursive;
+  margin-left: 93px;
+  padding-bottom: 18px;
+}
+
+.contactText {
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+.contactIcon {
+  color: #aeb7c3;
+  font-size: 20px;
+}
+
+#addressIcon {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#phoneIcon {
+  margin-right: -1px;
+}
+
+#githubIcon {
+  font-size: 21px;
+  margin-right: -1px;
+}
+
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.headings {
+  font-family: "PT Sans", sans-serif;
+  margin-left: 22px;
+  font-size: 20px;
+  border-top: 3px solid #073763;
+  padding-top: 12px;
+}
+
+.skills {
+  font-family: "Baloo Da 2", cursive;
+  margin-top: 14px;
+  margin-left: 22px;
+  margin-bottom: 10px;
+}
+
+.webSkill {
+  display: inline-block;
+  padding: 5px 8px 5px 8px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  background-color: #073763;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
+}
+/*# sourceMappingURL=style.css.map */
