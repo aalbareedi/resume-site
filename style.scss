@@ -3,14 +3,15 @@ body {
 }
 .wrapper {
   background-color: white;
-  padding-top: 20px;
-  padding-right: 22px;
+  padding: 20px 22px 30px 22px;
   max-width: 750px;
   margin: 0 auto;
 }
 .logo {
   width: 58px;
   margin-right: 16px;
+  margin-bottom: 1px;
+  margin-left: -1px;
 }
 .name {
   font-family: "PT Sans", sans-serif;
@@ -28,12 +29,11 @@ body {
 .profile {
   display: flex;
   margin-bottom: 30px;
-  padding-left: 20px;
+  // padding-left: 20px;
 }
 .contact {
   font-family: "Baloo Da 2", cursive;
-  // margin-left: 69px;
-  margin-left: 93px;
+  margin-left: 73px;
   padding-bottom: 18px;
 }
 .contactText {
@@ -42,7 +42,7 @@ body {
 }
 .contactIcon {
   color: #aeb7c3;
-  font-size: 20px;
+  font-size: 21px;
 }
 #addressIcon {
   margin-left: 2px;
@@ -51,13 +51,13 @@ body {
 #phoneIcon {
   margin-right: -1px;
 }
+#githubIcon {
+  font-size: 22px;
+  margin-right: -1px;
+}
 // #emailIcon {
 //   margin-right: 1px;
 // }
-#githubIcon {
-  font-size: 21px;
-  margin-right: -1px;
-}
 .contactInfo {
   display: flex;
   align-items: center;
@@ -65,16 +65,19 @@ body {
 }
 .headings {
   font-family: "PT Sans", sans-serif;
-  margin-left: 22px;
-  font-size: 20px;
+  // margin-left: 22px;
+  font-size: 24px;
   border-top: 3px solid #073763;
   padding-top: 12px;
 }
 .skills {
   font-family: "Baloo Da 2", cursive;
-  margin-top: 14px;
-  margin-left: 22px;
-  margin-bottom: 10px;
+  margin-top: 12px;
+  // margin-left: 22px;
+  margin-bottom: 20px;
+}
+.webSkills {
+  padding-bottom: 4px;
 }
 .webSkill {
   display: inline-block;
@@ -86,4 +89,31 @@ body {
   background-color: #073763;
   color: whitesmoke;
   letter-spacing: 0.5px;
+}
+.projects {
+  margin-bottom: 20px;
+  font-family: "Baloo Da 2", cursive;
+  margin-top: 12px;
+}
+.projectTitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+.skillInfo {
+  display: flex;
+  margin-bottom: 6px;
+}
+.skillPoint {
+  font-size: 28px;
+  margin-right: 3px;
+  line-height: 22px;
+}
+.skillText {
+  line-height: 22px;
+  word-spacing: 1px;
+}
+.orthoImg {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 4px;
 }
