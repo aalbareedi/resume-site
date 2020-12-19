@@ -1,0 +1,11 @@
+@media only screen and (min-width: 540px) {
+  .contact {
+    display: flex;
+  }
+  .contactSection:last-child {
+    margin-left: 24px;
+  }
+  .wrapper {
+    padding: 40px 42px 30px 42px;
+  }
+}

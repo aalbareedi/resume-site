@@ -13,6 +13,7 @@
     ></script>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
 
     <!-- fonts -->
     <link
@@ -91,21 +92,25 @@
       </div>
 
       <div class="contact">
-        <div class="contactInfo">
-          <i id="addressIcon" class="fas fa-map-marker-alt contactIcon"></i>
-          <span class="contactText">Oak Brook, IL</span>
+        <div class="contactSection">
+          <div class="contactInfo">
+            <i id="addressIcon" class="fas fa-map-marker-alt contactIcon"></i>
+            <span class="contactText">Oak Brook, IL</span>
+          </div>
+          <div class="contactInfo">
+            <i id="phoneIcon" class="fas fa-phone-alt contactIcon"></i>
+            <span class="contactText">(630) 408-1407</span>
+          </div>
         </div>
-        <div class="contactInfo">
-          <i id="phoneIcon" class="fas fa-phone-alt contactIcon"></i>
-          <span class="contactText">(630) 408-1407</span>
-        </div>
-        <div class="contactInfo">
-          <i id="emailIcon" class="fas fa-envelope contactIcon"></i>
-          <span class="contactText">aalbareedi@yahoo.com</span>
-        </div>
-        <div class="contactInfo">
-          <i id="githubIcon" class="fab fa-github contactIcon"></i>
-          <span class="contactText">github.com/aalbareedi</span>
+        <div class="contactSection">
+          <div class="contactInfo">
+            <i id="emailIcon" class="fas fa-envelope contactIcon"></i>
+            <span class="contactText">aalbareedi@yahoo.com</span>
+          </div>
+          <div class="contactInfo">
+            <i id="githubIcon" class="fab fa-github contactIcon"></i>
+            <span class="contactText">github.com/aalbareedi</span>
+          </div>
         </div>
       </div>
 
@@ -120,6 +125,7 @@
           <span class="webSkill">SASS</span>
           <span class="webSkill">Bootstrap</span>
           <span class="webSkill">GitHub</span>
+          <span class="webSkill">Responsive</span>
         </div>
         <div class="skillInfo">
           <div class="skillPoint">•</div>
@@ -146,16 +152,33 @@
 
       <div class="headings">Projects</div>
       <div class="projects">
-        <div class="projectTitle">Website Makeover</div>
-        <div class="projectDescription">
-          Result producing landing page for a local clinic.
+        <div class="projectBox">
+          <div class="projectTitle">Orthodontic Specialty Center</div>
+          <div class="projectDescription">
+            Result-producing landing page for a local clinic.
+          </div>
+          <img class="orthoImg" src="images/orthoImg.png" />
+          <div class="projectLink">github.com/aalbareedi/project</div>
         </div>
-        <img class="orthoImg" src="images/orthoImg.png" />
+        <div class="projectBox">
+          <div class="projectTitle">Personal Portfolio Site</div>
+          <div class="projectDescription">
+            Result-producing landing page for a local clinic.
+          </div>
+          <img class="orthoImg" src="images/portfolioImg.png" />
+          <div class="projectLink">github.com/aalbareedi/project</div>
+        </div>
       </div>
 
       <div class="headings">Work Experience</div>
+      <div class="exp">
+        <div class="projectTitle">Freelance Graphic & Web Design</div>
+        <div class="projectDescription">2017 - Present</div>
+        <div class="expText">Logos, web banners for small businesses.</div>
+      </div>
 
       <div class="headings">Education</div>
+      <div class="edu"></div>
     </main>
   </body>
 </html>

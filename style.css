@@ -1,12 +1,19 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #f1f2f5;
+  font-family: "Baloo Da 2", cursive;
 }
 
 .wrapper {
   background-color: white;
   padding: 20px 22px 30px 22px;
-  max-width: 750px;
+  max-width: 850px;
   margin: 0 auto;
+  -webkit-print-color-adjust: exact;
 }
 
 .logo {
@@ -24,7 +31,6 @@ body {
 }
 
 .jobTitle {
-  font-family: "Baloo Da 2", cursive;
   letter-spacing: 0.1px;
   word-spacing: 2.3px;
   font-size: 16px;
@@ -39,7 +45,6 @@ body {
 }
 
 .contact {
-  font-family: "Baloo Da 2", cursive;
   margin-left: 73px;
   padding-bottom: 18px;
 }
@@ -85,14 +90,8 @@ body {
   padding-top: 12px;
 }
 
-.skills {
-  font-family: "Baloo Da 2", cursive;
-  margin-top: 12px;
-  margin-bottom: 20px;
-}
-
 .webSkills {
-  padding-bottom: 4px;
+  padding-bottom: 8px;
 }
 
 .webSkill {
@@ -106,15 +105,30 @@ body {
   letter-spacing: 0.5px;
 }
 
-.projects {
+.skills,
+.projects,
+.exp {
   margin-bottom: 20px;
-  font-family: "Baloo Da 2", cursive;
-  margin-top: 12px;
+  margin-top: 14px;
+}
+
+.projectBox {
+  margin-bottom: 14px;
+}
+
+.projectLink {
+  font-size: 15px;
+  margin-top: 3px;
+  font-style: italic;
 }
 
 .projectTitle {
   font-weight: bold;
   font-size: 18px;
+}
+
+.projectDescription {
+  word-spacing: 1px;
 }
 
 .skillInfo {
@@ -138,6 +152,10 @@ body {
 .orthoImg {
   border: 1px solid black;
   width: 100%;
-  margin-top: 4px;
+  margin-top: 5px;
+}
+
+.expText {
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
