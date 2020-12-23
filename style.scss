@@ -91,10 +91,15 @@ body {
 }
 .skills,
 .projects,
-.exp {
+.exp,
+.edu {
   margin-bottom: 20px;
   // font-family: "Baloo Da 2", cursive;
-  margin-top: 14px;
+  margin-top: 16px;
+}
+.expDescription {
+  word-spacing: 1px;
+  font-style: italic;
 }
 .projectBox {
   margin-bottom: 14px;
@@ -131,4 +136,12 @@ body {
 }
 .expText {
   margin-top: 10px;
+}
+.school {
+  margin-bottom: 8px;
+}
+.eduCourse {
+  font-style: italic;
+  margin-top: 1px;
+  margin-bottom: 2px;
 }
