@@ -44,7 +44,10 @@ body {
 .contactText {
   font-size: 16px;
   margin-left: 6px;
+  color: #0303e6;
+  text-decoration: none;
 }
+
 .contactIcon {
   color: #aeb7c3;
   font-size: 21px;
@@ -66,11 +69,11 @@ body {
 .contactInfo {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .headings {
   font-family: "PT Sans", sans-serif;
-  // margin-left: 22px;
+  letter-spacing: 0.2px;
   font-size: 24px;
   border-top: 3px solid #073763;
   padding-top: 12px;
@@ -106,12 +109,20 @@ body {
 }
 .projectLink {
   font-size: 15px;
-  margin-top: 3px;
+  margin-top: 6px;
   font-style: italic;
+  display: inline-block;
+  color: #0303e6;
+  text-decoration: none;
+}
+.projectImgLink {
+  display: inline-block;
+  margin-top: 5px;
 }
 .projectTitle {
   font-weight: bold;
   font-size: 18px;
+  word-spacing: 1.4px;
 }
 .projectDescription {
   word-spacing: 1px;
@@ -132,7 +143,6 @@ body {
 .orthoImg {
   border: 1px solid black;
   width: 100%;
-  margin-top: 5px;
 }
 .expText {
   margin-top: 10px;
@@ -144,4 +154,11 @@ body {
   font-style: italic;
   margin-top: 1px;
   margin-bottom: 2px;
+}
+
+// active states
+a.contactText:active,
+a.projectLink:active {
+  text-decoration: underline;
+  color: black;
 }
