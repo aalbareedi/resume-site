@@ -96,7 +96,7 @@
         <div class="contactSection">
           <div class="contactInfo">
             <i id="emailIcon" class="fas fa-envelope contactIcon"></i>
-            <a class="contactText" href="mailto:buildmysite@yahoo.com"
+            <a class="contactText" href="mailto:aalbareedi@yahoo.com"
               >aalbareedi@yahoo.com</a
             >
           </div>
@@ -112,6 +112,10 @@
       <div class="headings">Skills</div>
       <div class="skills">
         <div class="webSkills">
+          <div class="skillYears">
+            I have <span class="yearText">3+ Years</span> of experience
+            with<span id="yearDot">...</span>
+          </div>
           <span class="webSkill">HTML5</span>
           <span class="webSkill">CSS3</span>
           <span class="webSkill">JavaScript (ES6+)</span>
@@ -121,6 +125,10 @@
           <span class="webSkill">Bootstrap</span>
           <span class="webSkill">GitHub</span>
           <span class="webSkill">Responsive Design</span>
+          <div class="skillYears">
+            I have <span class="yearText">10 Years</span> of experience
+            with<span id="yearDot">...</span>
+          </div>
           <span class="webSkill">Photoshop</span>
           <span class="webSkill">Illustrator</span>
         </div>
@@ -155,8 +163,11 @@
             Result-producing landing page for a local clinic.
           </div>
           <a class="projectImgLink" href="https://www.bracesspecialist.com/"
-            ><img class="orthoImg" src="images/orthoImg.png"
-          /></a>
+            ><img class="orthoImg" src="images/orthoImg.png" />
+            <div class="projectHover">
+              Visit Site<i class="fas fa-arrow-right visitArrow"></i>
+            </div>
+          </a>
           <a
             class="projectLink"
             href="https://github.com/aalbareedi/braces-specialist"
@@ -170,8 +181,11 @@
             Result-producing landing page for a local clinic.
           </div>
           <a class="projectImgLink" href="https://albareedi.com/"
-            ><img class="orthoImg" src="images/portfolioImg.png"
-          /></a>
+            ><img class="orthoImg" src="images/portfolioImg.png" />
+            <div class="projectHover">
+              Visit Site<i class="fas fa-arrow-right visitArrow"></i>
+            </div>
+          </a>
           <a class="projectLink" href="https://github.com/aalbareedi/my-site"
             >github.com/aalbareedi/my-site</a
           >
@@ -181,8 +195,14 @@
       <div class="headings">Work Experience</div>
       <div class="exp">
         <div class="projectTitle">Freelance Graphic & Web Design</div>
-        <div class="expDescription">2017 - Present</div>
-        <div class="expText">Logos, web banners for small businesses.</div>
+        <div class="expDescription">(2017 - Present)</div>
+        <div class="skillInfo">
+          <div class="skillPoint">•</div>
+          <div class="skillText">
+            Logos, business cards, album covers, posters, banners, websites for
+            local businesses.
+          </div>
+        </div>
       </div>
 
       <div class="headings">Education</div>
@@ -216,12 +236,17 @@
             <div class="skillPoint">•</div>
             <div class="skillText">
               project planning, sketching, storyboarding, printing, critiquing,
-              guerrilla marketing
+              guerrilla marketing, branding
             </div>
           </div>
         </div>
       </div>
       <div class="headings">Achievements</div>
     </main>
+
+    <script>
+      // Remove Gray Highlight When Tapping Links in Mobile Safari + mobile active states
+      document.addEventListener("touchstart", function () {}, true);
+    </script>
   </body>
 </html>

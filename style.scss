@@ -1,4 +1,7 @@
 * {
+  /* Remove Gray Highlight When Tapping Links in Mobile Safari */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
   box-sizing: border-box;
 }
 body {
@@ -79,7 +82,12 @@ body {
   padding-top: 12px;
 }
 .webSkills {
-  padding-bottom: 8px;
+  // padding-bottom: 8px;
+  background: gainsboro;
+  padding: 10px 10px 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: inline-block;
 }
 .webSkill {
   display: inline-block;
@@ -92,17 +100,36 @@ body {
   color: whitesmoke;
   letter-spacing: 0.5px;
 }
-.skills,
+.skillYears {
+  margin-bottom: 7px;
+  padding-left: 1px;
+  line-height: 19px;
+  word-spacing: 1.8px;
+}
+.skillYears:nth-of-type(2) {
+  margin-top: 10px;
+}
+.yearText {
+  font-weight: bold;
+}
+#yearDot {
+  letter-spacing: 1.6px;
+  margin-left: 1px;
+}
+.skills {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 .projects,
 .exp,
 .edu {
   margin-bottom: 20px;
-  // font-family: "Baloo Da 2", cursive;
   margin-top: 16px;
 }
 .expDescription {
   word-spacing: 1px;
   font-style: italic;
+  margin-bottom: 2px;
 }
 .projectBox {
   margin-bottom: 14px;
@@ -118,7 +145,11 @@ body {
 .projectImgLink {
   display: inline-block;
   margin-top: 5px;
+  position: relative;
 }
+// .projectImgLink:active{
+
+// }
 .projectTitle {
   font-weight: bold;
   font-size: 18px;
@@ -126,6 +157,29 @@ body {
 }
 .projectDescription {
   word-spacing: 1px;
+}
+.projectHover {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  // text-decoration: underline;
+}
+.visitArrow {
+  text-decoration: none;
+  font-size: 22px;
+  margin-left: 5px;
+  margin-bottom: 1px;
 }
 .skillInfo {
   display: flex;
@@ -143,9 +197,6 @@ body {
 .orthoImg {
   border: 1px solid black;
   width: 100%;
-}
-.expText {
-  margin-top: 10px;
 }
 .school {
   margin-bottom: 8px;

@@ -5,7 +5,7 @@
     display: flex;
   }
   .contactSection:last-child {
-    margin-left: 24px;
+    margin-left: 26px;
   }
   .wrapper {
     padding: 40px 42px 30px 42px;
@@ -20,9 +20,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 10px;
   }
   .projectBox {
     margin-right: initial;
+    width: 50%;
   }
   .projectBox:first-child {
     margin-right: 30px;
@@ -35,8 +37,8 @@
     text-decoration: underline;
     color: #af4cce;
   }
-  .projectImgLink:hover {
-    border: 4px solid blue;
+  .projectImgLink:hover .projectHover {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=mobile.css.map */
