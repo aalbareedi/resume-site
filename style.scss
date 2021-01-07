@@ -147,9 +147,9 @@ body {
   margin-top: 5px;
   position: relative;
 }
-// .projectImgLink:active{
-
-// }
+.projectImgLink:active .projectHover {
+  color: blue;
+}
 .projectTitle {
   font-weight: bold;
   font-size: 18px;
@@ -172,11 +172,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.4s;
-  // text-decoration: underline;
+  transition: opacity 0.4s;
 }
 .visitArrow {
-  text-decoration: none;
   font-size: 22px;
   margin-left: 5px;
   margin-bottom: 1px;

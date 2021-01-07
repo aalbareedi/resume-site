@@ -1,4 +1,4 @@
-@media only screen and (min-width: 540px) {
+@media screen and (min-width: 540px), print {
   .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -15,7 +15,7 @@
   }
 }
 
-@media only screen and (min-width: 650px) {
+@media screen and (min-width: 650px), print {
   .projects {
     display: -webkit-box;
     display: -ms-flexbox;
