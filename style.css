@@ -22,13 +22,13 @@ body {
 
 .logo {
   width: 58px;
+  height: 46px;
   margin-right: 16px;
   margin-bottom: 1px;
   margin-left: -1px;
 }
 
 .name {
-  color: pink;
   font-family: "PT Sans", sans-serif;
   font-size: 28px;
   line-height: 1;
@@ -269,7 +269,7 @@ body {
   border-radius: 50%;
   background-color: initial;
   text-decoration: none;
-  border: 2px solid gainsboro;
+  border: 2px solid #d3d3d3;
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,7 +280,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  outline: none;
   cursor: pointer;
   position: relative;
 }
@@ -295,22 +294,17 @@ body {
 }
 
 .iconToolTip {
+  display: none;
   visibility: hidden;
   opacity: 0;
   position: absolute;
   height: 36px;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
-}
-
-#printTooltip {
   top: 15px;
-  left: 58px;
-}
-
-#saveTooltip {
-  top: 79px;
-  left: 60px;
+  width: 80px;
+  font-size: 18px;
+  text-align: right;
 }
 
 a.contactText:active,
@@ -320,6 +314,7 @@ a.projectLink:active {
 }
 
 .saveBtns .saveBtn:active {
-  background-color: silver;
+  background-color: #a9a9a9;
+  border-color: #a9a9a9;
 }
 /*# sourceMappingURL=style.css.map */
