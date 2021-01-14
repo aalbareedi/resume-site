@@ -146,7 +146,8 @@ body {
 .projects,
 .exp,
 .edu,
-.achievements {
+.achievements,
+.hobbies {
   margin-bottom: 20px;
   margin-top: 16px;
 }
@@ -184,10 +185,6 @@ body {
   font-weight: bold;
   font-size: 18px;
   word-spacing: 1.4px;
-}
-
-.projectDescription {
-  word-spacing: 1px;
 }
 
 .projectHover {
@@ -235,7 +232,7 @@ body {
 
 .skillText {
   line-height: 22px;
-  word-spacing: 1px;
+  word-spacing: 1.4px;
 }
 
 .orthoImg {
