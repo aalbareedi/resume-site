@@ -10,7 +10,7 @@ body {
 }
 .wrapper {
   background-color: white;
-  padding: 20px 22px 78px 22px;
+  padding: 20px 22px 88px 22px;
   max-width: 850px;
   margin: 0 auto;
   -webkit-print-color-adjust: exact;
@@ -88,7 +88,7 @@ body {
   // padding-bottom: 8px;
   background: #e8e8e8;
   padding: 10px 10px 5px 10px;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   border-radius: 10px;
   // display: inline-block;
   // display: flex;
@@ -96,7 +96,7 @@ body {
 }
 .webSkill {
   display: inline-block;
-  padding: 5px 8px 5px 8px;
+  padding: 6px 8px 5px 8px;
   margin-right: 2px;
   margin-bottom: 5px;
   border-radius: 6px;
@@ -131,8 +131,8 @@ body {
 .edu,
 .achievements,
 .hobbies {
-  margin-bottom: 20px;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 .expDescription {
   word-spacing: 1px;
@@ -140,7 +140,7 @@ body {
   margin-bottom: 2px;
 }
 .projectBox {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 .projectLink {
   font-size: 15px;
@@ -191,6 +191,16 @@ body {
   display: flex;
   margin-bottom: 6px;
 }
+.jobInfo {
+  display: flex;
+}
+.job,
+.school {
+  margin-bottom: 8px;
+}
+div.skillInfoSpace {
+  margin-bottom: 2px;
+}
 .skillPoint {
   font-size: 28px;
   margin-right: 3px;
@@ -203,9 +213,6 @@ body {
 .orthoImg {
   border: 1px solid black;
   width: 100%;
-}
-.school {
-  margin-bottom: 8px;
 }
 .eduCourse {
   font-style: italic;
@@ -252,6 +259,10 @@ body {
   width: 80px;
   font-size: 18px;
   text-align: right;
+}
+
+.pageBreak {
+  display: none;
 }
 
 // active states
